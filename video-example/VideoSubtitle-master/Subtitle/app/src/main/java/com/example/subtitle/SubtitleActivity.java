@@ -108,8 +108,8 @@ public class SubtitleActivity extends Activity implements View.OnClickListener,O
 		videoView = (VideoView)this.findViewById(R.id.videoView );
 		mAM = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 		screenWidth = APPApplication.screenWidth;
-		//videoViewHeight = screenWidth * 9 / 16;
-		videoViewHeight = screenWidth * 9;
+		videoViewHeight = screenWidth * 9 / 16;
+		//videoViewHeight = screenWidth * 9;
 		//videoViewHeight = APPApplication.screenWidth;
 		tvSrt = (TextView)findViewById(R.id.srt);//项目中显示字幕的控件
 		mediacontroller_file_name= (TextView)findViewById(R.id.mediacontroller_file_name);
@@ -131,8 +131,6 @@ public class SubtitleActivity extends Activity implements View.OnClickListener,O
 		progress_seekbar.setOnSeekBarChangeListener(mSeekListener);
 		LayoutParams params = new RelativeLayout.LayoutParams(
 				LayoutParams.MATCH_PARENT, videoViewHeight);
-		/*LayoutParams params = new RelativeLayout.LayoutParams(
-				LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);*/
 		videoview_layout.setLayoutParams(params);
 		try {
 			// 1代表开启自动旋转true，0代表未开启自动旋转false
