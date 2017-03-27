@@ -1,4 +1,4 @@
-#Fri Mar 17 17:45:34 CST 2017
-base.0=D\:\\project\\VideoSubtitle-master\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Mon Mar 27 15:27:43 CST 2017
+base.0=D\:\\gitProject\\hello-world\\video-example\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=D\:\\project\\VideoSubtitle-master\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=D\:\\gitProject\\hello-world\\video-example\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

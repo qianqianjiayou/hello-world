@@ -6,5 +6,9 @@
     {
         "merged": "D:\\project\\VideoSubtitle-master\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
         "source": "D:\\project\\VideoSubtitle-master\\VideoSubtitle-master\\Subtitle\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\gitProject\\hello-world\\video-example\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\gitProject\\hello-world\\video-example\\VideoSubtitle-master\\Subtitle\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     }
 ]

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\project\VideoSubtitle-master\VideoSubtitle-master\Subtitle\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\project\VideoSubtitle-master\VideoSubtitle-master\Subtitle\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\gitProject\hello-world\video-example\VideoSubtitle-master\Subtitle\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\gitProject\hello-world\video-example\VideoSubtitle-master\Subtitle\app\src\debug\jniLibs"/></dataSet></merger>

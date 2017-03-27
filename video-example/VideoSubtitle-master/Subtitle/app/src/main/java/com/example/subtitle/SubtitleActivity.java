@@ -109,7 +109,8 @@ public class SubtitleActivity extends Activity implements View.OnClickListener,O
 		mAM = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 		screenWidth = APPApplication.screenWidth;
 		//videoViewHeight = screenWidth * 9 / 16;
-		videoViewHeight = APPApplication.screenHeight;
+		videoViewHeight = screenWidth * 9;
+		//videoViewHeight = APPApplication.screenWidth;
 		tvSrt = (TextView)findViewById(R.id.srt);//项目中显示字幕的控件
 		mediacontroller_file_name= (TextView)findViewById(R.id.mediacontroller_file_name);
 //		String[]splitStr=Constant.videoUrl1.split("/");
@@ -128,10 +129,10 @@ public class SubtitleActivity extends Activity implements View.OnClickListener,O
 		resolution_switch.setOnClickListener(this);
 		videoView.setOnTouchListener(this);
 		progress_seekbar.setOnSeekBarChangeListener(mSeekListener);
-		/*LayoutParams params = new RelativeLayout.LayoutParams(
-				LayoutParams.MATCH_PARENT, videoViewHeight);*/
 		LayoutParams params = new RelativeLayout.LayoutParams(
-				LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
+				LayoutParams.MATCH_PARENT, videoViewHeight);
+		/*LayoutParams params = new RelativeLayout.LayoutParams(
+				LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);*/
 		videoview_layout.setLayoutParams(params);
 		try {
 			// 1代表开启自动旋转true，0代表未开启自动旋转false
@@ -420,10 +421,10 @@ public class SubtitleActivity extends Activity implements View.OnClickListener,O
 
 	private void changeToSmallScreen() {
 		isPortraint = true;
-		/*LayoutParams params = new RelativeLayout.LayoutParams(
-				LayoutParams.MATCH_PARENT, videoViewHeight);*/
 		LayoutParams params = new RelativeLayout.LayoutParams(
-				LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
+				LayoutParams.MATCH_PARENT, videoViewHeight);
+		/*LayoutParams params = new RelativeLayout.LayoutParams(
+				LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);*/
 		videoview_layout.setLayoutParams(params);
 		videoView.setLayoutParams(params);
 		WindowManager.LayoutParams windowparams = getWindow().getAttributes();
