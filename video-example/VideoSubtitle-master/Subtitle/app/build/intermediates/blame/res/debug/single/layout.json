@@ -12,6 +12,10 @@
         "source": "D:\\gitProject\\hello-world\\video-example\\VideoSubtitle-master\\Subtitle\\app\\src\\main\\res\\layout\\resolution_item.xml"
     },
     {
+        "merged": "D:\\example\\video-example\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\example\\video-example\\VideoSubtitle-master\\Subtitle\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "D:\\project\\VideoSubtitle-master\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_subtitle.xml",
         "source": "D:\\project\\VideoSubtitle-master\\VideoSubtitle-master\\Subtitle\\app\\src\\main\\res\\layout\\activity_subtitle.xml"
     },
@@ -36,8 +40,20 @@
         "source": "D:\\project\\VideoSubtitle-master\\VideoSubtitle-master\\Subtitle\\app\\src\\main\\res\\layout\\videoview_controller.xml"
     },
     {
+        "merged": "D:\\example\\video-example\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_subtitle.xml",
+        "source": "D:\\example\\video-example\\VideoSubtitle-master\\Subtitle\\app\\src\\main\\res\\layout\\activity_subtitle.xml"
+    },
+    {
+        "merged": "D:\\example\\video-example\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\res\\merged\\debug\\layout\\resolution_item.xml",
+        "source": "D:\\example\\video-example\\VideoSubtitle-master\\Subtitle\\app\\src\\main\\res\\layout\\resolution_item.xml"
+    },
+    {
         "merged": "D:\\gitProject\\hello-world\\video-example\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_subtitle.xml",
         "source": "D:\\gitProject\\hello-world\\video-example\\VideoSubtitle-master\\Subtitle\\app\\src\\main\\res\\layout\\activity_subtitle.xml"
+    },
+    {
+        "merged": "D:\\example\\video-example\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\res\\merged\\debug\\layout\\videoview_controller.xml",
+        "source": "D:\\example\\video-example\\VideoSubtitle-master\\Subtitle\\app\\src\\main\\res\\layout\\videoview_controller.xml"
     },
     {
         "merged": "D:\\gitProject\\hello-world\\video-example\\VideoSubtitle-master\\Subtitle\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
