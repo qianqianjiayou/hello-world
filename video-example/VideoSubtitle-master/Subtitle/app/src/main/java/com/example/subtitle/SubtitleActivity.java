@@ -144,16 +144,6 @@ public class SubtitleActivity extends Activity implements View.OnClickListener,O
 //		String rawUri = "android.resource://" + getPackageName() + "/" + R.raw.renwei;
 		uri =  Uri.parse(Constant.videoUrl1);
 		File file = new File(Constant.videoUrl1);
-		Log.i("zhaomin","--------file= "+file.exists()+"path= "+file.getPath());
-		if (file.exists()) {
-			Log.i("zhaomin","************ ");
-		}else{
-			Log.i("zhaomin","ffffffffffff");
-		}
-
-		if (uri == null) {
-			Log.i("zhaomin","gggggggg");
-		}
 		//设置视频控制器
 //        videoView.setMediaController(new MediaController(this));
 		//播放完成回调
