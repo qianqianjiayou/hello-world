@@ -11,9 +11,16 @@ import java.security.PrivateKey;
 import java.security.PublicKey;
 import com.example.rsa.R;
 
+/**
+ * @author zhaomin
+ * @date  2017/6/19 16:58
+ */
+
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private Button btn1, btn2;// 加密，解密
     private EditText et1, et2, et3;// 需加密的内容，加密后的内容，解密后的内容
+
 
     /* 密钥内容 base64 code */
    /* private static String PUCLIC_KEY = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfRTdcPIH10gT9f31rQuIInLwe"
